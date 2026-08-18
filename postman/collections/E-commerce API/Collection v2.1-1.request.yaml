@@ -1,0 +1,21 @@
+$kind: http-request
+name: Collection v2.1
+description: ""
+url: http://localhost:3000/api/products/6?1 - Listar Produtos=
+method: DELETE
+queryParams:
+  1 - Listar Produtos: ""
+body:
+  type: json
+  content: "{\r
+
+    \    \"nome\": \"Teclado Mecânico Gamer Pro\",\r
+
+    \    \"preco\": 280.00,\r
+
+    \    \"descricao\": \"Teclado RGB switch azul com cabo trançado\",\r
+
+    \    \"categoria\": \"Periféricos\"\r
+
+    }"
+order: 1162771086989573
